@@ -31,7 +31,14 @@ while (i <= 32)
 int tid = 0;
 while (tid <= 5)
 {
+    Console.WriteLine("Välj ett nummer");
     string tal = Console.ReadLine();
     int a = int.Parse(tal);
-tid++;
+    tid++;
+    if (a >= 5) {
+         Console.WriteLine("högre än 5!");
+         }
+    
 }
+
+while(!int.TryParse(Console.ReadLine(),out int result));
