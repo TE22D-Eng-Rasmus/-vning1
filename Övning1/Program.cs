@@ -75,6 +75,8 @@ while(!int.TryParse(g, out guess)){
     else if (guess == r)
     {
      Console.WriteLine($"Right the answer was {r}");
+     Console.ReadLine();
     }
-    Console.ReadLine();
+    g = Console.ReadLine();
+    guess = int.Parse(g);
 }
